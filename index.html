@@ -34,6 +34,7 @@
           <a class="button primary" href="assets/Chaeyeon_Kim_CV.pdf">Download CV</a>
           <a class="button" href="mailto:ckim333@wisc.edu">Email</a>
           <a class="button" href="https://scholar.google.co.kr/citations?user=Nl-YNaMAAAAJ&hl=ko">Google Scholar</a>
+          <a class="button" href="https://www.linkedin.com/in/chenny0224/?locale=en">LinkedIn</a>
         </div>
       </div>
       <aside class="profile-panel" aria-label="Profile summary">
@@ -131,37 +132,63 @@
     <section class="section section-band" id="projects">
       <div class="section-heading">
         <p class="eyebrow">Projects</p>
-        <h2>Simulation systems for learning, communication, and assessment.</h2>
+        <h2>Simulation systems for learning, communication, assessment, and embodied reasoning.</h2>
       </div>
-      <div class="project-grid">
-        <article>
-          <h3>AR and MR Geometry Learning</h3>
-          <p>Video coding frameworks and comparative studies of physical and mixed reality manipulatives for geometric reasoning.</p>
-        </article>
-        <article>
-          <h3>SimTEACHER</h3>
-          <p>VR/AR classroom-management simulations with 15 scenarios designed with in-service teachers for preservice teacher training.</p>
-          <a href="https://sites.google.com/view/chaeny/research-projects/simteacher?authuser=0">Project page</a>
-        </article>
-        <article>
-          <h3>ARAM Bot</h3>
-          <p>AI chatbot prototypes using Google Dialogflow to support informative and argumentative interaction research.</p>
-        </article>
-        <article>
-          <h3>Stealth Assessment AR Game</h3>
-          <p>An AR career interest test game built with evidence-centered design and real-time Firebase log data.</p>
-          <a href="https://sites.google.com/view/chaeny/research-projects/career-interest-test-game?authuser=0">Project page</a>
-        </article>
-        <article>
-          <h3>MARVEL</h3>
-          <p>Motion capture-based VR rehabilitation simulation using Perception Neuron hardware and real-time performance feedback.</p>
-        </article>
-        <article>
-          <h3>SimSEAH and SimDANVI</h3>
-          <p>VR simulations for communication and clinical-skills training with medical and dental education partners.</p>
-          <a href="https://sites.google.com/view/chaeny/research-projects/simseah?authuser=0">SimSEAH</a>
-          <a href="https://sites.google.com/view/chaeny/research-projects/simdanvi?authuser=0">SimDANVI</a>
-        </article>
+      <div class="project-lab" data-project-lab>
+        <div class="project-stage" aria-live="polite">
+          <div class="project-orbit" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p class="project-kicker" data-project-years>2024 - present</p>
+          <h3 data-project-title>AR and MR Geometry Learning</h3>
+          <p data-project-summary>Video coding frameworks and comparative studies of physical and mixed reality manipulatives for geometric reasoning.</p>
+          <div class="project-meta" data-project-meta></div>
+          <div class="project-links" data-project-links></div>
+        </div>
+
+        <div class="project-controls">
+          <button class="icon-button" type="button" data-project-prev aria-label="Previous project">Prev</button>
+          <div class="project-strip" role="tablist" aria-label="Research projects">
+            <button type="button" class="project-tab active" role="tab" aria-selected="true" data-project-index="0">
+              <span>Geometry XR</span>
+              <small>Embodied reasoning</small>
+            </button>
+            <button type="button" class="project-tab" role="tab" aria-selected="false" data-project-index="1">
+              <span>SimTEACHER</span>
+              <small>Teacher simulation</small>
+            </button>
+            <button type="button" class="project-tab" role="tab" aria-selected="false" data-project-index="2">
+              <span>SimSEAH</span>
+              <small>VR strabismus</small>
+            </button>
+            <button type="button" class="project-tab" role="tab" aria-selected="false" data-project-index="3">
+              <span>SimDANVI</span>
+              <small>Dental education</small>
+            </button>
+            <button type="button" class="project-tab" role="tab" aria-selected="false" data-project-index="4">
+              <span>Career AR Game</span>
+              <small>Stealth assessment</small>
+            </button>
+            <button type="button" class="project-tab" role="tab" aria-selected="false" data-project-index="5">
+              <span>ARAM Bot</span>
+              <small>AI chatbot</small>
+            </button>
+            <button type="button" class="project-tab" role="tab" aria-selected="false" data-project-index="6">
+              <span>MARVEL</span>
+              <small>VR rehabilitation</small>
+            </button>
+          </div>
+          <button class="icon-button" type="button" data-project-next aria-label="Next project">Next</button>
+        </div>
+
+        <div class="project-checks" aria-label="Project activity checklist">
+          <label><input type="checkbox" data-project-check="design"> <span>Design</span></label>
+          <label><input type="checkbox" data-project-check="build"> <span>Build</span></label>
+          <label><input type="checkbox" data-project-check="data"> <span>Data</span></label>
+          <label><input type="checkbox" data-project-check="share"> <span>Share</span></label>
+        </div>
       </div>
     </section>
 
@@ -257,6 +284,7 @@
         <a href="mailto:ckim333@wisc.edu">ckim333@wisc.edu</a>
         <a href="https://sites.google.com/view/chennykim/home">Personal Website</a>
         <a href="https://scholar.google.co.kr/citations?user=Nl-YNaMAAAAJ&hl=ko">Google Scholar</a>
+        <a href="https://www.linkedin.com/in/chenny0224/?locale=en">LinkedIn</a>
         <a href="assets/Chaeyeon_Kim_CV.pdf">Download CV</a>
       </div>
     </section>
@@ -265,5 +293,6 @@
   <footer class="footer">
     <p>© 2026 Chaeyeon Kim. Built as a static GitHub Pages site.</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
